@@ -1,5 +1,5 @@
 {
-  "name": "awesomeslashcommand",
+  "name": "bananafacts",
   "version": "1.0.0",
   "description": "The awesomest slash command evar.",
   "main": "index.js",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DEGoodmanWilson/easy-peasy-slash-command-app.git"
+    "url": "git+https://github.com/jchurley95/easy-peasy-slash-command-app.git"
   },
   "keywords": [
     "slack",
     "slash command"
   ],
-  "author": "D.E. Goodman-Wilson",
+  "author": "Joey Hurley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DEGoodmanWilson/easy-peasy-slash-command-app/issues"
+    "url": "https://github.com/jchurley95/easy-peasy-slash-command-app/issues"
   },
-  "homepage": "https://github.com/DEGoodmanWilson/easy-peasy-slash-command-app#readme",
+  "homepage": "https://github.com/jchurley95/easy-peasy-slash-command-app#readme",
   "engines": {
     "node": "5.1.1"
   },
