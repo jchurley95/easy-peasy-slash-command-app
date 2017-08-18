@@ -1,0 +1,95 @@
+[
+    {
+        "command": "banana_facts",
+        "description": "Fun facts about bananas!",
+        "triggers": [
+            {
+                "type": "string",
+                "pattern": "banana_facts"
+            }
+        ],
+        "variables": [
+            {
+                "name": "question_1",
+                "type": "string"
+            },
+            {
+                "name": "question_2",
+                "type": "string"
+            },
+            {
+                "name": "question_3",
+                "type": "string"
+            }
+        ],
+        "script": [
+            {
+                "topic": "default",
+                "script": [
+                    {
+                        "text": [
+                            "The scientific name for banana is musa sapientum, which means “fruit of the wise men.”"
+                        ]
+                    },
+                    {
+                        "text": [
+                            "Bananas float in water, as do apples and watermelons."
+                        ]
+                    },
+                    {
+                        "text": [
+                            "Hawaii is the only place in the U.S. where bananas are grown commercially, although at one time they were also grown in southern California and Florida. The overwhelming majority of the bananas Americans eat come from countries in Latin America and South America, including Costa Rica, Ecuador, Colombia, Honduras, Panama, and Guatemala."
+                        ]
+                    },
+                    {
+                        "text": [
+                            "The type of banana you see in the supermarket is called a Cavendish banana. The preferred variety was originally the Gros Michel, which essentially became extinct by 1960, thanks to a fungus called Panama disease."
+                        ]
+                    },
+                    {
+                        "text": [
+                            "Some cultures (most notably Japan) use the fiber in the banana plant to make fabric and sometimes even paper."
+                        ]
+                    },
+                    {
+                        "text": [
+                            "The fastest marathon ever run by a competitor dressed as a fruit was 2 hours, 58 minutes, and 20 seconds—recorded at the Barcelona Marathon on March 6, 2011. The runner was Patrick Wightman from the United Kingdom, who dressed as a banana."
+                        ]
+                    },
+                    {
+                        "text": [
+                            "The Banana Club Museum, located on Highway 111 in Mecca, Calif. (just south of Palm Springs), houses the world’s largest collection devoted to any one fruit. It contains more than 17,000 banana items, most of which have been donated by members. (To join the club, visit www.bananaclub.com.)"
+                        ]
+                    },
+                    {
+                        "text": [
+                            "Thanks to its oil, rubbing the inside of a banana peel on a mosquito bite (or other bug bite) or on poison ivy will help keep it from itching and getting inflamed."
+                        ]
+                    },
+                    {
+                        "text": [
+                            "If you rub the inside of a banana peel on a scrape or burn, it will help the pain go away, keep the swelling down, and keep the wound from getting infected."
+                        ]
+                    },
+                    {
+                        "action": "complete"
+                    }
+                ]
+            },
+            {
+                "topic": "on_timeout",
+                "script": [
+                    {
+                        "text": [
+                            "Looks like you got distracted. We can continue later."
+                        ]
+                    },
+                    {
+                        "action": "timeout"
+                    }
+                ]
+            }
+        ],
+        "modified": "Fri Aug 18 2017 15:21:04 GMT+0000 (UTC)"
+    }
+]
